@@ -1,0 +1,100 @@
+*{
+    /* CSS Reset */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    /* color: black; */
+}
+button{
+    background-color: wheat;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover{
+    transform: scale(1.016);
+}
+body{
+    /* Set Display and Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+
+
+
+#start{
+    background-color: violet;
+    padding: 5px 10px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    display: none;
+}
+
+.container{
+
+}
+
+.ques-cont{
+    background-color: #fff;
+    width: 500px;
+    padding: 20px 25px;
+    /* display: bloac; */
+
+    h1{
+        color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        /* display:; */
+        
+    }
+h2{
+    padding: 10px;
+}
+
+    #next{
+        background-color: rgb(255, 151, 151);
+        padding: 10px;
+        cursor: pointer;
+        font-size: 20px;
+       position: relative;
+       left: 50%;
+       transform: translate(-50%,0);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+        
+
+    }
+    .options{
+        font-size: 20px;
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+        display: flex;
+        padding: 10px 20px;
+        align-items: center;
+    }
+    .green{
+        background-color: rgb(134, 255, 134);
+       
+    }
+    .red{
+        background-color: red;
+    }
+    
+}
